@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Insertion</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    </head>
+    <body>
+        <h1 align="center">Bienvenue dans l'espace étudiant</h1>
+        <form action="InsertionEtudiant" method="post" style="display:block; width:80%; margin:auto">
+            <fieldset>
+                <br/>
+                <label>Nom</label>
+                <input type="text" name="nom"/>
+                <label>Prénom</label>
+                <input type="text" name="prenom"/> 
+                <br/><br/>
+                <label>CIN</label>
+                <input type="number" name="cin"/>
+                <br/><br/>
+                Homme <input type="radio" value="M" name="sexe" checked/>
+                Femme <input type="radio" value="F" name="sexe"/>
+                <br/><br/>
+                <select name="specialite" id="specialite"> 
+                    <option>*** Choisissez une spécialité ***</option>
+                    <option value="MPI" selected>MPI</option>
+                    <option value="CBA">CBA</option>
+                    <option value="GL">GL</option>
+                    <option value="RT">RT</option>
+                    <option value="IIA">IIA</option>
+                    <option value="IMI">IMI</option>
+                    <option value="CH">CH</option>
+                    <option value="BG">BIO</option>
+                </select>
+                <br/><br/>
+                <button>Valider</button>
+                <br/><br/>
+            </fieldset>
+        </form>
+    </body>
+</html>
